@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}body {
+    background-color: antiquewhite;
+    
+}.container {
+    width: 90%;
+    height: auto;
+    background-color: aqua;
+    margin: 0 auto;
+    padding-top: 10px;
+
+}.div-clear {
+    clear: both;
+
+}.header {
+    margin: 0 auto;
+    padding: 10px;
+
+}.header-image-name {
+    margin: 0 auto;
+    text-align: center;
+
+}.header-image img {
+    width: 180px;
+    height: 200px;
+    border-radius: 120px;
+
+}.header-name {
+    padding-top: 10px;
+    padding-left: 10px;
+    margin: 0 auto;
+
+}#english-name {
+    color: blue;
+
+}#bangla-name {
+    color: tomato;
+
+}.header-contact {
+    text-align: center;
+    padding-top: 10px;
+
+}.header-contact img {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    border: violet 2px solid;
+
+}.header-contact a {
+    padding: 10px;
+
+}hr {
+    width: 100%;
+    color: turquoise;
+    border-top: 5px solid rgb(80, 231, 67);
+    border-radius: 20px;
+
+}.common-hr {
+    width: 100%;
+    color: yellow;
+    border-top: 2px solid black;
+
+}.personal-section,.education-sectio,
+.skills-section,.interest-section,
+.message-section {
+    padding: 10px;
+
+}.left {
+    float: left;
+    width: 40%;
+    font-size: 25px;
+    padding-left: 10px;
+    color: violet;
+
+}.right {
+    float: right;
+    width: 60%;
+    color: purple;
+
+}.right h3 {
+    color: red;
+
+}#clear {
+    margin-left: 150px;
+
+}.footer {
+    height: 50px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}p {
+    font-size: 18px;
+}
+/* hover start here */
+
+.header:hover{
+    background-color: tan;
+
+}.personal-section:hover {
+    background-color: azure;
+
+}.education-section:hover {
+    background-color: bisque;
+
+}.skills-section:hover {
+    background-color: burlywood;
+
+}.interest-section:hover {
+    background-color: thistle;
+
+}.message-section:hover {
+    background-color: chocolate;
+
+}
